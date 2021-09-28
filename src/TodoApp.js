@@ -28,7 +28,7 @@ export default function Todo() {
               value={task}
               onChange={(e) => settask(e.target.value)}
             />
-            <button>Add</button>
+            <input type="submit" value="Add" />
           </form>
           {/* {todo.map((list, index) => {
             return (
