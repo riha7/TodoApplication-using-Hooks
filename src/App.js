@@ -4,8 +4,17 @@ import TodoApp from './TodoApp';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <TodoApp />
+      <center>
+        <div
+          className="card"
+          style={{ height: '90vh', border: '2px solid', overflow: 'auto' }}
+        >
+          <div className="card-body">
+            <h1></h1>
+            <TodoApp />
+          </div>
+        </div>
+      </center>
     </div>
   );
 }
